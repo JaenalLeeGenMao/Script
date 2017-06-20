@@ -1,0 +1,16 @@
+{
+  "name": "reactapp",
+  "version": "1.0.0",
+  "description": "-----------Automatic---------------\r npm install -g create-react-app\r create-react-app my-app\r cd my-app\r npm start",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
