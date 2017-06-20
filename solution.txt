@@ -9,6 +9,7 @@ Merge branch 'master' of https://github.com/JaenalLeeGenMao/Script
 Force to merge with master branch since this is just a test and no sub
 branches around it.
 
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
 #If error during push/merge (#step 26) use code below to force push
 git push origin master --allow-unrelated-histories
 
