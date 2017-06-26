@@ -1,3 +1,91 @@
 body {
-    background: green;
+    font-family: sans-serif;
+}
+
+.languages {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.languages li {
+    margin: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.popular-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+.popular-item {
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.popular-rank {
+    font-size: 20px;
+}
+
+.avatar {
+    width: 150px;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 7px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #d0021b;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+  color: #e6e6e6;
+  background: #0a0a0a;
+  border: none;
+  font-size: 16px;
+  border-radius: 3px;
+  width: 200px;
+  text-align: center;
+  display: block;
+  padding: 7px 0;
+  margin: 10px auto;
+}
+
+.button:hover:enabled {
+  background: linear-gradient(#1a1a1a,#0a0a0a);
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:active {
+  transform: translateY(1px);
 }
