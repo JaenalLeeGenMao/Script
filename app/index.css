@@ -67,6 +67,33 @@ a {
     align-items: center;
 }
 
+.battle-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.battle-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+.battle-form label {
+    font-weight: 200;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.battle-form input {
+    border-radius: 3px;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.43);
+    font-size: 16px;
+    width: 80%;
+}
+
 .button {
   color: #e6e6e6;
   background: #0a0a0a;
@@ -88,4 +115,15 @@ a {
 
 .button:active {
   transform: translateY(1px);
+}
+
+.reset {
+    color: #d0021b;
+    background: transparent;
+    border: none;
+    font-size: 16px;
+}
+
+.reset:hover {
+    cursor: pointer;
 }
